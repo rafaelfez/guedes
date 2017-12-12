@@ -6,12 +6,12 @@ import {
   View
 } from 'react-native';
 
-import Principal from './src/pages/principal';
+import RootNavigator from './src/routes';
 
 export default class App extends Component {
   render() {
     return (
-      <Principal />
+      <RootNavigator />
     );
   }
 }
